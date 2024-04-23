@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    color: white;
+   
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+.container .page1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("netflix\ bg.jpg");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 8px solid gray;
+}
+.page1 .overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+}
+.page1 .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1vw;
+}
+.page1 .navbar img {
+    position: relative;
+    z-index: 5;
+}
+.navbar .navright {
+    padding-top: 15px;
+    position: relative;
+    left: 8vw;
+}
+
+.navbar .navright select {
+    width: 100px;
+    height: 35px;
+    background: none;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    z-index: 5;
+    border: 2px solid gray;
+    margin-right: 20px;
+}
+.navright .btn1 {
+    width: 65px;
+    height: 35px;
+    background-color: #C11119;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    z-index: 5;
+}
+.page1 .herop1 {
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    top: 11vw;
+}
+.herop1 h1 {
+    font-size: 50px;
+}
+.herop1 h2 {
+    font-weight: 380;
+}
+.herop1 h3 {
+    font-weight: 380;
+    margin-top: 1.5vw;
+}
+.herop1 .email {
+    margin-top: 1vw;
+}
+.herop1 .email input {
+    width: 400px;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 1vw;
+    background-color: black;
+    opacity: 0.7;
+    border: 2px solid gray;
+    color: white;
+    position: relative;
+    right: 1vw;
+}
+.email input::placeholder {
+    color: white;
+    position: relative;
+    z-index: 3;
+}
+.email .btn2 {
+    width: 200px;
+    height: 50px;
+    background-color: #C11119;
+    font-size: 19px;
+    border: none;
+    border-radius: 6px;
+}
+.page2{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    border-bottom: 8px solid gray;
+    background-color: #000000;
+    padding-top: 4vw;
+}
+.page2 .p2left {
+    position: relative;
+    z-index: 5;
+    padding-top: 10vw;
+    padding-left: 8vw;
+}
+.page2 .p2left h1 {
+    font-size: 50px;
+}
+.p2left h2 {
+    font-size: 24px;
+    font-weight: 400;
+    width: 43vw;
+}
+.page2 .p2right {
+    position: relative;
+    z-index: 5;
+}
+.p2right .imageandvideo {
+    position: relative;
+}
+.imageandvideo img {
+    position: relative;
+}
+.imageandvideo video {
+    position: absolute;
+    left: 5vw;
+    top: 5vw;
+    z-index: -1;
+    object-fit: cover;
+}
+.page3 {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    border-bottom: 8px solid gray;
+    position: relative;
+    z-index: 5;
+}
+.page3 .p3left {
+    position: relative;
+    left: 7vw;
+}
+.page3 .p3right {
+    padding-top: 10vw;
+    padding-left: 8vw;
+}
+.page3 .p3right h1 {
+    font-size: 50px;
+    width: 700px;
+    line-height: 4vw;
+}
+.p3right h2 {
+    font-size: 24px;
+    font-weight: 400;
+    width: 43vw;
+    line-height: 2vw;
+    margin-top: 1vw;
+}
+.page4 {
+    display:flex;
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    border-bottom: 8px solid gray;
+}
+.page4 .p4left {
+    position: relative;
+    z-index: 5;
+    padding-top: 12vw;
+    padding-left: 8vw;
+}
+.page4 .p4left h1 {
+    font-size: 50px;
+}
+.p4left h2 {
+    font-size: 24px;
+    font-weight: 400;
+    width: 40vw;
+    line-height: 2vw;
+    margin-top: 1vw;
+}
+.page4 .p4right {
+    position: relative;
+    z-index: 5;
+    padding-top: 5vw;
+}
+.p4right .imageandvideo2 {
+    position: relative;
+}
+.imageandvideo2 video {
+    position: absolute;
+    top: 2vw;
+    left: 5vw;
+    z-index: -1;
+    object-fit: cover;
+}
+.page5 {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+
+}
+.page5 .p5left {
+    position: relative;
+    z-index: 5;
+    
+}
+.p5left img {
+    padding-top: 5vw;
+    padding-left: 8vw;
+}
+.page5 .p5right {
+    position: relative;
+    z-index: 5;
+    padding-top: 15vw;
+}
+.p5right h1 {
+    font-size: 50px;
+}
+.p5right h2 {
+    font-size: 24px;
+    font-weight: 400;
+    width: 40vw;
+    line-height: 2vw;
+    margin-top: 1vw;
+}
